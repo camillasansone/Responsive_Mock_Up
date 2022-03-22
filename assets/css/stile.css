@@ -1,0 +1,101 @@
+body{
+    font-family: Fira Sans, Helvetica, Arial, sans-serif;
+}
+
+/* =================================
+Home Page
+====================================*/
+.nav-link:hover{
+    background-color: rgb(71, 162, 185);
+}
+
+.banner{
+    width: 100%;
+    min-height: 500px;
+    background-image: url('../images/banner.jpg');
+}
+
+nav a.btn{
+    color: gray;
+    background-color: transparent;
+    border: none;
+}
+
+.card{
+    border-radius: 0;
+    border: none;
+}
+.card-img-overlay{
+    border-radius: 0;
+}
+
+.icona{
+    padding: 20px;
+    font-size: 40px;
+    color: red;
+}
+
+.bg-dev{
+    background-color: rgb(4, 4, 49);
+}
+
+i{
+    font-size: smaller;
+    color: red;
+}
+
+.card-img-overlay{
+    min-height: 250px;
+}
+.card-img, .card-img-top {
+    margin-top: 60px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.card-img, .card-img-bottom {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+footer div i{
+    border: 1px solid grey;
+    font-size: 18px;
+    color: #333;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+/* ======================================
+chisiamo.html
+=======================================*/
+.laptop{
+    width: 90%;
+    height: auto;
+}
+
+.price-expl{
+    width: 100%;
+    height: auto;
+}
+
+.scatolo{
+    text-align: center;
+    transform: skew(-10deg, 0);
+    background-color: rgb(129, 255, 255);
+    padding: 70px 10px 70px 10px;
+}
+
+.intermedio{
+    background-color: red;
+}
+
+.full{
+    background-color: rgb(229, 207, 83);
+}
+/* =====================================
+fine stili
+==========================================*/
